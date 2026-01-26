@@ -3,68 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SKEREBRICE</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif; 
-			background-color: black;
-        }
-		
-        header {
-            background-color: black /* Color de fondo del header */
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-		h1 { 
-		color: white;
-		}
-		
-        .main-content {
-            text-align: center;
-        }
-        .welcome-section {
-            background-color: black; /* Color de fondo para el área de bienvenida */
-        }  
-        		
-        .ai-section {
-            background-color: black; /* Color de fondo para el área de IA */
-         }   
-        .info-section {
-            background-color: black; /* Color de fondo para el área de información */
-          }  
-     	   .image-placeholder {
-            background-color: black;
-			
-            }
-    </style>
+    <title>#1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>@miguelbrice on Instagram</h1>
-    </header>
+<header class="header">
+    <div class="container flex">
+        <h1 class="logo">MIGUELBRICE</h1>
 
-    <div class="main-content">
+        <button class="menu-btn" id="menuBtn">☰</button>
 
-        <div class="welcome-section">
-            <div class="image-placeholder">
-                <img src="1.png" alt="imagen1">
-            </div>
-        </div>
-
-        <div class="ai-section">
-            <div class="image-placeholder">
-                <img src="2.png" alt="imagen2">
-            </div>
-        </div>
-
-        <div class="info-section">
-            <div class="image-placeholder">
-			<img src="3.png" alt="imagen3">
-			</div>
-        </div>
+        <nav class="nav" id="navMenu">
+            <a href="index.html">#1</a>
+            <a href="aboutme.html">Story</a>
+            <a href="blog.html">Exp</a>
+            <a href="contact.html">Booking</a>
+        </nav>
     </div>
+</header>
+
+<script src="script.js"></script>
+
+<main class="main container grid">
+    <section class="hero">
+        <h2>Asesor de negocios</h2>
+        <p>Transformo ideas en estrategias de negocio sólidas.</p>
+        <p>Desarrollo soluciones personalizadas para tu crecimiento empresarial.</p>
+        <p>Conecto con expertos para impulsar tu marca.</p>
+        <button class="btn">Solicitar contacto</button>
+    </section>
+
+    <div class="card">
+        <h3>Terapeuta emocional</h3>
+        <p>Inspiración y apoyo para superar desafíos emocionales.</p>
+    </div>
+
+    <div class="card">
+        <h3>Desarrollador de proyectos</h3>
+        <p>Construyo soluciones digitales innovadoras y eficientes.</p>
+    </div>
+
+    <div class="card">
+        <h3>Talento publicitario</h3>
+        <p>Desarrollo campañas publicitarias efectivas y creativas.</p>
+    </div>
+
+    <div class="card">
+        <a href="aboutme.html">
+        <h3>Conoce de mi historia personal</h3>
+        <p>Conecta conmigo</p></a>
+    </div>
+
+    <div class="card">
+        <a href="blog.html">
+        <h3>Sigueme en redes sociales</h3>
+        <p>Descubre mi contenido</p>
+        </a>
+    </div>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 MIGUELBRICE - Todos los derechos reservados.</p>
+</footer>
 
 </body>
 </html>
